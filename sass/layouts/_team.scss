@@ -11,6 +11,25 @@
   height: 19px;
 }
 
+.section-staff {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.profession {
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 19px;
+}
+
 .team-item {
   text-align: center;
   background: #ffffff;
@@ -31,23 +50,4 @@
 
 .team-item:last-child {
   margin-right: 0;
-}
-
-.section-staff {
-  background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.profession {
-  color: var(--main-text-color);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  margin-top: 10px;
-  margin-bottom: 0;
-  height: 19px;
 }
