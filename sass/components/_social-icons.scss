@@ -1,0 +1,48 @@
+.social-icons-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill var(--timing-function);
+}
+
+.social-icons {
+  display: flex;
+  padding-left: 32px;
+  margin-top: 16px;
+}
+
+.social-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-clr);
+  border-radius: 50%;
+  transition: background-color var(--timing-function);
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: var(--accent-color);
+  transition: background-color var(--timing-function);
+}
+
+.social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg {
+  fill: var(--white-clr);
+  transition: fill var(--timing-function);
+}
+
+.icons-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--timing-function);
+}
+
+.footer-svg {
+  fill: var(--white-clr);
+}
+
+.social-icons-item:not(:last-child) {
+  margin-right: 10px;
+}

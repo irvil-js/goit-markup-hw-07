@@ -1,0 +1,169 @@
+.adress {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  height: 81px;
+}
+
+.footer-css {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  padding-bottom: 60px;
+}
+
+.left-footer {
+  padding-top: 60px;
+}
+
+.adress-footer {
+  color: var(--white-clr);
+  margin-bottom: 0;
+  height: 21px;
+}
+
+.footer-adress {
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.link-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer {
+  margin-bottom: 9px;
+  height: 21px;
+}
+
+.contact-footer:last-child {
+  margin-bottom: 0;
+}
+
+.social-net {
+  margin-left: 70px;
+  padding-top: 72px;
+}
+
+.social-net .social-icons {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.join {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-clr);
+  height: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-css .container {
+  display: flex;
+}
+
+.subscribe {
+  margin-left: 93px;
+  margin-right: 0;
+  padding-top: 72px;
+  padding-bottom: 94px;
+}
+
+.subsribe-form {
+  display: flex;
+  padding: 0;
+}
+
+.mailing-input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  width: 358px;
+  height: 50px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: var(--main-bckgrnd);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 16px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  outline: none;
+  transition: border-color var(--timing-function);
+}
+
+.mailing-input:focus,
+.mailing-input:not(:placeholder-shown) {
+  border-color: var(--accent-color);
+  transition: border-color var(--timing-function);
+}
+
+.mailing-btn {
+  position: relative;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  background-color: #f5f4fa;
+  color: var(--title-color);
+  border-radius: 4px;
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+  padding-left: 29px;
+  padding-right: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 12px;
+  transition: background-color var(--timing-function),
+    color var(--timing-function), box-shadow var(--timing-function);
+}
+
+.mailing-btn:hover,
+.mailing-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-clr);
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--timing-function),
+    color var(--timing-function), box-shadow var(--timing-function);
+}
+
+.send-icon {
+  position: absolute;
+  right: 28px;
+  bottom: 13px;
+  width: 24px;
+  height: 24px;
+  fill: var(--title-color);
+  transition: fill var(--timing-function);
+}
+
+.mailing-btn:hover .send-icon,
+.mailing-btn:focus .send-icon {
+  fill: var(--white-clr);
+  transition: fill var(--timing-function);
+}
