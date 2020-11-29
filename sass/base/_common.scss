@@ -62,12 +62,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
   transition: color var(--timing-function);
-}
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-  transition: color var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: color var(--timing-function);
+  }
 }
 
 .list {

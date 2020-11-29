@@ -6,6 +6,12 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   height: 81px;
+
+  &-footer {
+    color: var(--white-clr);
+    margin-bottom: 0;
+    height: 21px;
+  }
 }
 
 .footer-css {
@@ -17,16 +23,14 @@
   letter-spacing: 0.03em;
   background-color: #2f303a;
   padding-bottom: 60px;
+
+  .container {
+    display: flex;
+  }
 }
 
 .left-footer {
   padding-top: 60px;
-}
-
-.adress-footer {
-  color: var(--white-clr);
-  margin-bottom: 0;
-  height: 21px;
 }
 
 .footer-adress {
@@ -41,20 +45,29 @@
 .contact-footer {
   margin-bottom: 9px;
   height: 21px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.contact-footer:last-child {
-  margin-bottom: 0;
+.icons-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--timing-function);
+}
+
+.footer-svg {
+  fill: var(--white-clr);
 }
 
 .social-net {
   margin-left: 70px;
   padding-top: 72px;
-}
 
-.social-net .social-icons {
-  padding-left: 0;
-  margin-top: 0;
+  .social-icons {
+    padding-left: 0;
+    margin-top: 0;
+  }
 }
 
 .join {
@@ -71,20 +84,16 @@
   margin-bottom: 20px;
 }
 
-.footer-css .container {
-  display: flex;
-}
-
 .subscribe {
   margin-left: 93px;
   margin-right: 0;
   padding-top: 72px;
   padding-bottom: 94px;
-}
 
-.subsribe-form {
-  display: flex;
-  padding: 0;
+  &-form {
+    display: flex;
+    padding: 0;
+  }
 }
 
 .mailing-input {
@@ -108,14 +117,13 @@
   padding-bottom: 0;
   outline: none;
   transition: border-color var(--timing-function);
-}
 
-.mailing-input:focus,
-.mailing-input:not(:placeholder-shown) {
-  border-color: var(--accent-color);
-  transition: border-color var(--timing-function);
+  &:focus,
+  &:not(:placeholder-shown) {
+    border-color: var(--accent-color);
+    transition: border-color var(--timing-function);
+  }
 }
-
 .mailing-btn {
   position: relative;
 
@@ -140,16 +148,22 @@
   margin-left: 12px;
   transition: background-color var(--timing-function),
     color var(--timing-function), box-shadow var(--timing-function);
-}
 
-.mailing-btn:hover,
-.mailing-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-clr);
-  outline: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color var(--timing-function),
-    color var(--timing-function), box-shadow var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--white-clr);
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color var(--timing-function),
+      color var(--timing-function), box-shadow var(--timing-function);
+  }
+
+  &:hover .send-icon,
+  &:focus .send-icon {
+    fill: var(--white-clr);
+    transition: fill var(--timing-function);
+  }
 }
 
 .send-icon {
@@ -159,11 +173,5 @@
   width: 24px;
   height: 24px;
   fill: var(--title-color);
-  transition: fill var(--timing-function);
-}
-
-.mailing-btn:hover .send-icon,
-.mailing-btn:focus .send-icon {
-  fill: var(--white-clr);
   transition: fill var(--timing-function);
 }

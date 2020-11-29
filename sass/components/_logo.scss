@@ -8,6 +8,11 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
   height: 31px;
+
+  &.footer {
+    color: var(--white-clr);
+    margin-bottom: 20px;
+  }
 }
 
 .logo-accent.link {
@@ -18,9 +23,4 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo-style.footer {
-  color: var(--white-clr);
-  margin-bottom: 20px;
 }
