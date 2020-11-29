@@ -8,10 +8,9 @@
 
 .btn-portfolio {
   margin-right: 8px;
-  transition: color var(--timing-function),
-    background-color var(--timing-function);
-}
+  transition: color $timing-function, background-color $timing-function;
 
-.btn-portfolio:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }

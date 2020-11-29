@@ -6,7 +6,13 @@
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border var(--timing-function);
+  transition: border $timing-function;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    transition: border $timing-function;
+  }
 }
 
 .client-item:not(:last-child) {
@@ -16,7 +22,13 @@
 .client-icons-svg {
   fill: #afb1b8;
   display: inline-block;
-  transition: fill var(--timing-function);
+  transition: fill $timing-function;
+
+  .link.client-link:hover &,
+  .link.client-link:focus & {
+    fill: $accent-color;
+    transition: fill $timing-function;
+  }
 }
 
 .first-client {
@@ -52,16 +64,4 @@
 .our-clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.link.client-link:hover,
-.link.client-link:focus {
-  border: 1px solid var(--accent-color);
-  transition: border var(--timing-function);
-}
-
-.link.client-link:hover .client-icons-svg,
-.link.client-link:focus .client-icons-svg {
-  fill: var(--accent-color);
-  transition: fill var(--timing-function);
 }

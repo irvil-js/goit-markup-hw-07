@@ -9,10 +9,10 @@
 
 .directions {
   position: relative;
-}
 
-.directions:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .title-card {
@@ -29,5 +29,5 @@
   text-align: center;
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--white-clr);
+  color: $white-clr;
 }

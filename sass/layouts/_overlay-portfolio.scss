@@ -4,22 +4,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   opacity: 0.5;
   transform: translateY(100%);
-  transition: transform var(--timing-function);
-}
+  transition: transform $timing-function;
 
-.project:hover .article-portfolio,
-.project:focus .article-portfolio {
-  opacity: 1;
-  transition: opacity var(--timing-function);
-}
-
-.project:hover .box-overlay,
-.project:focus .box-overlay {
-  opacity: 0.9;
-  transform: translateY(0);
+  .project:hover &,
+  .project:focus & {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
 }
 
 .article-portfolio {
@@ -40,5 +34,11 @@
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: var(--white-clr);
+  color: $white-clr;
+
+  .project:hover &,
+  .project:focus & {
+    opacity: 1;
+    transition: opacity $timing-function;
+  }
 }

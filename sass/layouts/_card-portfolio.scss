@@ -7,6 +7,13 @@
 .project {
   display: block;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    transition: box-shadow $timing-function;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .description {
@@ -23,7 +30,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-color);
+  color: $title-color;
   height: 36px;
   margin-bottom: 0;
 }
@@ -35,7 +42,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
   height: 30px;
   margin-bottom: 0;
   margin-top: 4px;
@@ -55,25 +62,18 @@
   text-align: center;
   padding-bottom: 0;
   border: 1px solid #eeeeee;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  &:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 }
 
 .box-thumb {
   position: relative;
   display: flex;
   overflow: hidden;
-}
-
-.project:hover,
-.project:focus {
-  transition: box-shadow var(--timing-function);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.box:nth-child(3n) {
-  margin-right: 0;
-}
-
-.box:nth-last-child(-n + 3) {
-  margin-bottom: 0;
 }
