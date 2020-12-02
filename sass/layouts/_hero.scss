@@ -27,8 +27,8 @@
   margin-left: auto;
   margin-right: auto;
   color: $white-clr;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -38,8 +38,8 @@
 }
 
 .btn-service {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;

@@ -1,7 +1,7 @@
 .logo-style {
   display: block;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -18,7 +18,7 @@
 .logo-accent.link {
   color: $accent-color;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

@@ -1,6 +1,6 @@
 .adress {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -15,8 +15,8 @@
 }
 
 .footer-css {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -72,8 +72,8 @@
 
 .join {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -97,8 +97,8 @@
 }
 
 .mailing-input {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -127,8 +127,8 @@
 .mailing-btn {
   position: relative;
 
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;

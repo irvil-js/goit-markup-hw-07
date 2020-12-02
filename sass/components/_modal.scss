@@ -41,8 +41,8 @@
 
 .modal-form {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -92,8 +92,8 @@
 }
 
 .btn-send {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -145,8 +145,8 @@ textarea {
 
 .form-label {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.167;
@@ -169,8 +169,8 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -187,8 +187,8 @@ textarea {
 }
 
 .form-input {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.167;
@@ -216,8 +216,8 @@ textarea {
   text-align: start;
 
   textarea::placeholder {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+    font-family: $main-font-family;
+    font-style: $main-font-style;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.143;
@@ -265,8 +265,8 @@ textarea {
 }
 
 .contract {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
